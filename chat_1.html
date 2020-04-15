@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/9a0b5f0f9f.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chat</title>
+  <script src="js/includeHTML.js"></script>
+</head>
+<body class="chats-body">
+<header include-html="header.html"></header>
+  <header class="header">
+    <div class="header__header-column">
+      <a href="index.html" class="header__back-btn">
+        <i class="fas fa-arrow-left"></i>
+      </a>
+      <h1 class="class header__title">김부장고춧가루쉑</h1>
+    </div>
+    <dev class="class header__header-column">
+      <span class="header__icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <span class="header__icon">
+        <a href="index.html">
+          <i class="fas fa-bars"></i>
+        </a>
+      </span>
+    </dev>
+  </header>
+  <main class="chat-screen">
+    <ul class="chat__messages">
+      <span class="chat__timestamp">2020년 4월 14일 화요일</span>
+      <li class="incoming-message message">
+        <img src="images/friend_1.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+            최과장 어제 그거 말인데
+          </div>
+          <span class="message__read">오전 1:00</span>
+          <div class="message__bubble">
+            그거말이야 그거
+          </div>
+          <span class="message__read">오전 1:00</span>
+          <span class="message__read"></span>
+        </div>
+      </li>
+      <li class="sent-message message">
+        <div class="message__content">
+          <div class="message__bubble">
+            어떤거 말씀이신지...?
+          </div>
+        </div>
+      </li>
+      <li class="incoming-message message">
+        <img src="images/friend_1.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+          아 있잖아 왜 그거
+          </div>
+          <span class="message__read">오전 1:11</span>
+          <div class="message__bubble">
+          그거 전에도 했던 그거!!
+          </div>
+          <span class="message__read">오전 1:11</span>
+          <div class="message__bubble">
+          아 왜 그걸 몰라!!
+          </div>
+          <span class="message__read">1</span><br />
+          <div class="message__bubble">
+          최과장???
+          </div>
+          <span class="message__read">1</span>
+          <div class="message__bubble">
+          듣고있나?
+          </div>
+          <span class="message__read">1</span>
+          <div class="message__bubble">
+          최과장 전화받어
+          </div>
+          <span class="message__read">1</span>
+        </div>
+      </li>
+    </ul>
+    <div class="chat__write">
+    <div class="chat__write-column">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="chat__write-column">
+      <input type="text" placeholder="Send message" class="chat__write-input">
+    </div>
+    <div class="chat__write-column">
+      <span class="chat__write-icon">
+        <i class="far fa-smile-wink"></i>
+      </span>
+      <span class="chat__write-icon">
+        <i class="fas fa-microphone"></i>
+      </span>
+    </div>
+  </div>
+  </main>
+</body>
+<script>
+    includeHTML();
+</script>
+</html>

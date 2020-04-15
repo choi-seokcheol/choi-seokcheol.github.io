@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/9a0b5f0f9f.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chat</title>
+  <script src="js/includeHTML.js"></script>
+</head>
+<body class="chats-body">
+  <header include-html="header.html"></header>
+  <header class="header">
+    <div class="header__header-column">
+      <a href="index.html" class="header__back-btn">
+        <i class="fas fa-arrow-left"></i>
+      </a>
+      <h1 class="class header__title">이대리</h1>
+    </div>
+    <dev class="class header__header-column">
+      <span class="header__icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <span class="header__icon">
+        <a href="index.html">
+          <i class="fas fa-bars"></i>
+        </a>
+      </span>
+    </dev>
+  </header>
+  <main class="chat-screen">
+    <ul class="chat__messages">
+      <span class="chat__timestamp">2020년 4월 14일 화요일</span>
+      <li class="incoming-message message">
+        <img src="images/friend_2.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+            죄송하지만 여쭤볼게 있는데요...
+          </div>
+          <span class="message__read">오후 1:43</span>
+        </div>
+      </li>
+    </ul>
+     <div class="chat__write">
+    <div class="chat__write-column">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="chat__write-column">
+      <input type="text" placeholder="Send message" class="chat__write-input">
+    </div>
+    <div class="chat__write-column">
+      <span class="chat__write-icon">
+        <i class="far fa-smile-wink"></i>
+      </span>
+      <span class="chat__write-icon">
+        <i class="fas fa-microphone"></i>
+      </span>
+    </div>
+  </div>
+  </main>
+</body>
+<script>
+    includeHTML();
+</script>
+</html>

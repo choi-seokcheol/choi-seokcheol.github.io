@@ -1,2 +1,2 @@
 # choi-seokcheol.github.io
-kokoa clone
+- kakao_talk_clone

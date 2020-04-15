@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/9a0b5f0f9f.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Chat</title>
+  <script src="js/includeHTML.js"></script>
+</head>
+<body class="chats-body">
+  <header include-html="header.html"></header>
+  <header class="header">
+    <div class="header__header-column">
+      <a href="index.html" class="header__back-btn">
+        <i class="fas fa-arrow-left"></i>
+      </a>
+      <h1 class="class header__title">개똥이</h1>
+    </div>
+    <dev class="class header__header-column">
+      <span class="header__icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <span class="header__icon">
+        <a href="index.html">
+          <i class="fas fa-bars"></i>
+        </a>
+      </span>
+    </dev>
+  </header>
+  <main class="chat-screen">
+    <ul class="chat__messages">
+      <span class="chat__timestamp">2020년 4월 15일 수요일</span>
+      <li class="incoming-message message">
+        <img src="images/friend_3.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+            야 쉬는 날인데 뭐하고 있냐
+          </div>
+          <span class="message__read">오전 11:20</span>
+        </div>
+      </li>
+      <li class="sent-message message">
+        <div class="message__content">
+          <div class="message__bubble">
+            선거날인데 선거하고 쉬고 있지
+          </div>
+        </div>
+      </li>
+      <li class="incoming-message message">
+        <img src="images/friend_3.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+            난 김부장님이랑 등산 가는 길인데
+          </div>
+          <span class="message__read">오전 11:30</span>
+        </div>
+      </li>
+      <li class="sent-message message">
+        <div class="message__content">
+          <div class="message__bubble">
+            뭐? 김부장? 어제 새벽에도 카톡온거 씹었는데...
+          </div>
+        </div>
+      </li>
+      <li class="incoming-message message">
+        <img src="images/friend_3.jpg" class="chat_profile">
+        <div class="message__content">
+          <div class="message__bubble">
+            오늘 한 잔 어때?
+          </div>
+          <span class="message__read">1</span>
+        </div>
+      </li>
+    </ul>
+    <div class="chat__write">
+    <div class="chat__write-column">
+      <i class="far fa-plus-square"></i>
+    </div>
+    <div class="chat__write-column">
+      <input type="text" placeholder="Send message" class="chat__write-input">
+    </div>
+    <div class="chat__write-column">
+      <span class="chat__write-icon">
+        <i class="far fa-smile-wink"></i>
+      </span>
+      <span class="chat__write-icon">
+        <i class="fas fa-microphone"></i>
+      </span>
+    </div>
+  </div>
+  </main>
+</body>
+<script>
+    includeHTML();
+</script>
+</html>
